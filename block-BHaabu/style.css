@@ -50,8 +50,9 @@ table {
 /* ------------------------------- */
 
 body {
-    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(pexels-pixabay-34107.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(pexels-pixabay-34107.jpg) 50% 50%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -94,8 +95,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: thistle;
-    background-image: linear-gradient(rgba(0,0,0,0.1) , rgba(0,0,0,0.1)) , url(./pexels-ian-turnell-709552.jpg);
+    background: linear-gradient(to right bottom, transparent, rgba(237, 20, 62, 0.5)) , url(./pexels-ian-turnell-709552.jpg) 50% 50% no-repeat;
     background-size:  cover;
     border-radius: 4px;
+    color: #fff;
 }
